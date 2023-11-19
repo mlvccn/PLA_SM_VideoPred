@@ -4,6 +4,7 @@ This repository contains the implementation code for paper:
 **Pair-wise Layer Attention with Spatial Masking for Video Prediction**  
 
 ## Introduction
+Video prediction yields future frames by employing the historical frames and has exhibited its great potential in many applications, e.g., meteorological prediction, and autonomous driving. Previous works often decode the ultimate high-level semantic features to future frames without texture details, which deteriorates the prediction quality. Motivated by this, we develop a Pair-wise Layer Attention (PLA) module to enhance the layer-wise semantic dependency of the feature maps derived from the U-shape structure in Translator, by coupling low-level visual cues and high-level features. Hence, the texture details of predicted frames are enriched. Moreover, most existing methods capture the spatiotemporal dynamics by Translator, but fail to sufficiently utilize the spatial features of Encoder. This inspires us to design a Spatial Masking (SM) module to mask partial encoding features during pretraining, which adds the visibility of remaining feature pixels by Decoder. To this end, we present a Pair-wise Layer Attention with Spatial Masking (PLA-SM) framework for video prediction to capture the spatiotemporal dynamics, which reflect the motion trend. 
 
 <p align="center">
     <img src="./readme_figures/overall_framework.png" width="600"> <br>
@@ -52,7 +53,7 @@ This repository contains the implementation code for paper:
 
 |                 | MSE  | MAE  | SSIM  |
 |:---------------:|:----:|:----:|:-----:|
-| PLA-VP          | 18.4 | 57.6 | 0.960 |
+| PLA-SM          | 18.4 | 57.6 | 0.960 |
 
 ## Qualitative results on Moving MNIST
 
@@ -64,14 +65,18 @@ This repository contains the implementation code for paper:
 Citation
 
 If you find this repo useful, please cite the following papers.
-@article{
+@article{li-PLA-SM,
+  author    = {Ping Li, Chenhan Zhang, Zheng Yang, Xianghua Xu, Mingli Song},
+  title     = {Pair-wise Layer Attention with Spatial Masking for Video Prediction},
+  journal   = {arXiv},
+  year      = {2023},
+  doi       = {https://doi.org/10.48550/arXiv.2311.XXXXX},
 }
-```
 
 ## Contact
 
-If you have any questions, feel free to contact us through email (201050044@hdu.edu.cn)
+If you have any questions, please feel free to contact Mr. Zhang Chenhan via email (201050044@hdu.edu.cn)
 
 ## Acknowledgements
 
-We would like to thank to the authors of [SimVP](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9879439) for making their [source code](https://github.com/gaozhangyang/SimVP-Simpler-yet-Better-Video-Prediction) public which significantly accelerated the development of FFINet.
+We would like to thank to the authors of [SimVP](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9879439) for making their [source code](https://github.com/gaozhangyang/SimVP-Simpler-yet-Better-Video-Prediction) public, which significantly accelerated the development of FFINet.
