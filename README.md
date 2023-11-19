@@ -63,15 +63,16 @@ Video prediction yields future frames by employing the historical frames and has
 (a) MAU; (b) PhyDNet; (c) SimVP; (d) Ours.
  
 ## Citation
-
 If you find this repo useful, please cite the following papers.
+```
 @article{li-PLA-SM,
   author    = {Ping Li, Chenhan Zhang, Zheng Yang, Xianghua Xu, Mingli Song},
   title     = {Pair-wise Layer Attention with Spatial Masking for Video Prediction},
   journal   = {arXiv},
   year      = {2023},
-  doi       = {https://doi.org/10.48550/arXiv.2311.XXXXX},
+  doi       = {https://doi.org/10.48550/arXiv.2311.XXXXX}
 }
+```
 
 ## Contact
 
