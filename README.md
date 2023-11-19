@@ -58,11 +58,11 @@ Video prediction yields future frames by employing the historical frames and has
 ## Qualitative results on Moving MNIST
 
 <p align="center">
-    <img src="./readme_figures/qualitative_mmnist.png" width="600"> <br>
+    <img src="./readme_figures/MovingMNIST.png" width="600"> <br>
 </p>
-
-```
-Citation
+(a) MAU; (b) PhyDNet; (c) SimVP; (d) Ours.
+ 
+## Citation
 
 If you find this repo useful, please cite the following papers.
 @article{li-PLA-SM,
