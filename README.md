@@ -70,7 +70,7 @@ If you find this repo useful, please cite the following papers.
   title     = {Pair-wise Layer Attention with Spatial Masking for Video Prediction},
   journal   = {arXiv},
   year      = {2023},
-  doi       = {https://doi.org/10.48550/arXiv.2311.XXXXX}
+  doi       = {https://arxiv.org/abs/2311.11289}
 }
 ```
 
