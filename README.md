@@ -76,8 +76,8 @@ If you find this repo useful, please cite the following papers.
 
 ## Contact
 
-If you have any questions, please feel free to contact Mr. Zhang Chenhan via email (201050044@hdu.edu.cn)
+If you have any questions, please feel free to contact Mr. Zhang Chenhan via email (zch2020@hdu.edu.cn)
 
 ## Acknowledgements
 
-We would like to thank to the authors of [SimVP](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9879439) for making their [source code](https://github.com/gaozhangyang/SimVP-Simpler-yet-Better-Video-Prediction) public, which significantly accelerated the development of FFINet.
+We would like to thank to the authors of [SimVP](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9879439) for making their [source code](https://github.com/gaozhangyang/SimVP-Simpler-yet-Better-Video-Prediction) public, which significantly accelerated the development of PLA-SM.
